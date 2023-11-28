@@ -24,6 +24,8 @@ body {
     z-index: 110;
 }
 
+
+
 ul li.nav-item a:hover {
     color: rgb(162, 205, 236) !important;
 }
@@ -357,6 +359,12 @@ ul.ad_list_icon li a i:hover {
 
     }
 
+    .ad_container {
+
+        padding: 10px;
+        margin-top: 40px;
+    }
+
     .ad_prj div.col-lg-6 div.container#img-working {
 
         display: flex;
@@ -364,7 +372,11 @@ ul.ad_list_icon li a i:hover {
         align-items: center;
         margin-top: 20px;
 
+    }
 
+    .ad_form {
+        width: 80%;
+        padding: 40px;
     }
 }
 
@@ -377,7 +389,7 @@ ul.ad_list_icon li a i:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .ad_prj div.col-lg-6 div.container#img-working {
 
