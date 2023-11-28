@@ -354,6 +354,7 @@ ul.ad_list_icon li a i:hover {
         flex-direction: column-reverse;
         padding: 50px;
         width: 85%;
+
     }
 
     .ad_prj div.col-lg-6 div.container#img-working {
@@ -361,8 +362,9 @@ ul.ad_list_icon li a i:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 400px;
         margin-top: 20px;
+
+
     }
 }
 
@@ -372,6 +374,32 @@ ul.ad_list_icon li a i:hover {
         width: 100%;
         padding: 30px;
         gap: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .ad_prj div.col-lg-6 div.container#img-working {
+
+        margin-top: 50px;
+        height: 120px;
+
+    }
+
+    .ad_list_footer {
+
+        font-size: 0.9em;
+    }
+
+    ul.ad_list_icon li a i {
+        font-size: 1.5rem;
+        box-shadow: 10px 10px 10px black;
+        border-radius: 50px;
+        animation: all 0.6 ease;
+    }
+
+    ul.ad_list_icon li a i:hover {
+        font-size: 2rem;
     }
 }
 
